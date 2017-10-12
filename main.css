@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+
+
+header {
+  background-color: #404041;
+  height: 150px;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 150px;
+  color: #ed458b;
+  font-weight: 800;
+/*  position: absolute;
+  top: 0px;*/
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+#h1-change-color {
+  font-weight: 300;
+  color: #e6e7e8;
+}
+
+button {
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: 300;
+  border-radius: 2em;
+  color: #FFFFFF;
+  background-color: #929497;
+}
+
+button:disabled {
+  background-color: #d0d2d3;
+}
+
+button:hover {
+  background-color: #EB008B;
+}
+
+.guess-button, .clear {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 275px;
+}
+
+#last-guess-text, #feedback {
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-weight: 300;
+  color: #404041;
+  margin: 0px;
+}
+
+#guessNumber {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 200px;
+  color: #EB008B;
+  margin: 0px;
+}
+
+#guess {
+  width: 580px;
+  font-size: 36px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #929497;
+  border: 1px solid #d0d2d3;
+  margin-top: 50px;
+}
+
+input::placeholder {
+  color: #d0d2d3;
+}
+
+
+.reset-game {
+  width: 580px;
+  margin: 30px;
+}
+
+#user-settings {
+  background-color: #D0d2d3;
+  position: relative;
+  bottom: -53px;
+  height: 200px;
+  width: 100%;
+  line-height: 61px;
+}
+
+#userSetMinNum, #userSetMaxNum {
+  width: 200px;
+  font-size: 20px;
+  margin: 20px 10px 20px 10px;
+}
+
+#updateNumRange {
+  width: 455px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 300;
+  color: #EB008B;
+  margin: 0px;
+}
+
+#validation {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#min-val, #max-val {
+  margin-right: 20px;
+  font-size: 20px;
+
+}

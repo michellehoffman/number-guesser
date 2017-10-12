@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <title>Number Guesser Project</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+
+  <header>
+    <h1>Number <span id="h1-change-color">Guesser</h1>
+  </header>
+
+  <section class="display-vals">
+    <p><span id='min-val'>Current Min: <span id="displayMinVal"></span></span> <span id='max-val'>Current Max: <span id="displayMaxVal"></span></span></p>
+    
+  </section>
+
+ <!--  <form> -->
+    <label for="guess">
+      <input id="guess" type="number" min="1" max="100" placeholder="Enter your guess">
+      <p id="validation"></p>
+    </label>
+  
+    <section>
+      <button class="guess-button">Guess</button>
+      <button class="clear" disabled="">Clear</button>
+      <!-- below input only works in a form -->
+      <!-- <input type="reset" value="Clear"> -->
+    </section>
+<!--   </form> -->
+
+  <p id="last-guess-text"></p>
+  <p id="guessNumber"></p>
+  <p id="feedback"></p>
+
+  <button class="reset-game">Reset Game</button>
+
+<br>
+
+  <div id="user-settings">
+    <p>Set your own range</p>
+    <label for="userSetMinNum">
+      <input type="number" id="userSetMinNum" placeholder="Min">
+    </label>
+    <label for="userSetMaxNum">
+      <input type="number" id="userSetMaxNum" placeholder="Max">
+    </label>
+    <br>
+    <button id="updateNumRange">Update</button>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="./script.js"></script> 
+</body>
+</html>
